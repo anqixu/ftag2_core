@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
 <package>
   <name>ftag2_core</name>
-  <version>0.0.0</version>
-  <description>The ftag2_core package</description>
-  <maintainer email="mimic@todo.todo">mimic</maintainer>
-  <license>TODO</license>
+  <version>0.0.1</version>
+  <description>ftag2_core</description>
+  <maintainer email="anqixu@cim.mcgill.ca">Anqi Xu</maintainer>
+  <license>BSD</license>
+  <author email="anqixu@cim.mcgill.ca">Anqi Xu</author>
 
   <buildtool_depend>catkin</buildtool_depend>
+
   <build_depend>roscpp</build_depend>
   <build_depend>rospy</build_depend>
   <build_depend>message_generation</build_depend>
