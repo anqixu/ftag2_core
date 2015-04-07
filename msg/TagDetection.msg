@@ -1,5 +1,7 @@
 geometry_msgs/Pose pose
 
+uint32 tagImgRot
+
 float64 markerPixelWidth
 
 string IDString
