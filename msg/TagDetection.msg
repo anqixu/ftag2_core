@@ -1,7 +1,9 @@
 geometry_msgs/Pose pose
 uint8 tagImgRot # [0-3] value representing 0/90/180/270 degree tag rotation determined during detector phase
 
+float64[] tagPixCorners
 float64 markerPixelWidth
+float64 markerWidth
 
 string IDString
 
