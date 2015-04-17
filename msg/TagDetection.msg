@@ -1,7 +1,7 @@
 # The pose structure contains position and orientation information of a given tag,
 # defined with respect to the camera (a.k.a. static / world) frame.
 # More concretely, this pose information together defines a transformation
-#matrix T, such that:
+# matrix T, such that:
 #
 # homogeneous_point_in_camera_frame = T * homogeneous_point_in_tag_frame
 #
