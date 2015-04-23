@@ -17,11 +17,12 @@
 geometry_msgs/Pose pose
 
 # [0-3] value representing 0/90/180/270 degree CCW tag rotation, determined during detector phase
-uint8 tagImgRot
+uint8 markerRot90
 
-float64[] tagPixCorners
-float64 markerPixelWidth
-float64 markerWidth
+float64[] markerCornersPx
+float64 markerWidthPx
+
+float64 markerWidthM
 
 string IDString
 
